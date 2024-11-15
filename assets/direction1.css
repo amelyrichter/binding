@@ -5,6 +5,8 @@
 
 body {
 	margin: 0px;
+	text-align: center;
+	
 }
 
 header {
@@ -13,7 +15,7 @@ header {
 	padding: 50px;
 }
 
-h1, .author {
+h1, .author, blockquote {
 	font-family: "Imbue", serif;
 	font-optical-sizing: auto;
 	font-weight: 200;
@@ -32,11 +34,22 @@ h1, .author {
 	top: 150px;
   }
 
-  section {
-	border: solid 2px white;
+  section, p {
+	border-top: solid 0.5px black;
+	border-bottom: solid 0.5px black;
   }
 
   p {
 	padding: 20px;
-	
   }
+
+  blockquote {
+		background-color: #C1D7C1;
+		font-size: 30px;
+  }
+  
+
+  .introductionparagraph {
+	background-color: #FDE3E4;
+  }
+
