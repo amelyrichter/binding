@@ -1,5 +1,5 @@
 :root  {
-	--base size: 16px;
+	--base size: 18px;
 }
 
 * {
@@ -10,5 +10,5 @@
 }
 
 body {
-	font-size: 16px;
+	font-size: 18px;
 }
