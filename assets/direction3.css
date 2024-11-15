@@ -1,6 +1,8 @@
 body {
 	background-color: black;
 	color: aliceblue;
+	font-family: "Overpass Mono", serif;
+  	font-optical-sizing: auto;
 }
 
 h1 {
@@ -34,4 +36,36 @@ h1 {
 	font-size: 12rem;
 	margin-bottom: 9rem;
 	margin-top: 0.5em;
+}
+
+blockquote {
+	font-family: "Anton", sans-serif;
+	font-weight: 100;
+	font-style: ultra-expanded;
+	font-weight: auto;
+	font-style: ultra-expanded;
+	font-stretch: ultra-expanded;
+	line-height: 95%;
+	font-stretch: 200%;
+	font-size: 3rem;
+	text-transform: uppercase;
+	background-color: aliceblue;
+	color: black;
+	margin: -20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	/* text-align: justify */
+	/* -webkit-transform: scale(1, 1); */
+	/* -moz-transform: scale(2, 1);
+	 -ms-transform: scale(2, 1);
+	  -o-transform: scale(2, 1);
+		 transform: scale(2, 1); */
+	/* width: 90%; */
+}
+
+section {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
