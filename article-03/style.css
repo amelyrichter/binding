@@ -101,7 +101,7 @@ body {
 	margin-bottom: 0px;
 	/* padding: 10px; */
 	background-color: #D7FF00;
-	text-align: center;
+	text-align: left;
 	font-family: "PT Serif", serif;
 	font-weight: 400;
 	font-style: normal;
@@ -197,6 +197,15 @@ blockquote {
 
 }
 
+nav {
+	background-color: #D7FF00;
+    text-align: left;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+}
+
 a {
 	font-family: "Rubik Spray Paint", system-ui;
 	text-shadow:
@@ -222,3 +231,32 @@ a {
 li:nth-child(3) {
     border-top: 5px solid black;
 }
+
+/* This is the small navigation for mobile on each article */
+#menu {
+    list-style: none;
+	min-width: 100%;
+	width: 100vw;
+    }
+
+    #menu > li.sub ul {
+
+    list-style: none;
+    position: absolute;
+    top: -1000em;
+    left: 0px;
+	justify-content: space-evenly;
+	width: 100vw;
+    }
+
+    #menu li.sub ul li a {
+    display: inline;
+    }
+
+    #menu > li.sub:hover ul {
+    top: 3em;
+    }
+
+    #menu{
+    text-align:left;
+    }
