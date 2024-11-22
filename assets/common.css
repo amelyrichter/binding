@@ -48,7 +48,7 @@ body {
 .nav-columns {
 	/* margin: 5rem auto; */
 	width: min(100%);
-	display: grid;
+	/* display: grid; */
 	grid-auto-flow: column;
 	margin: 0px;
 }
