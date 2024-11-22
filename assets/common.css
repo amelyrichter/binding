@@ -73,6 +73,7 @@ ul {
 #menu {
     list-style: none;
 	min-width: 100%;
+	width: 100vw;
     }
 
     #menu > li.sub ul {
@@ -81,6 +82,8 @@ ul {
     position: absolute;
     top: -1000em;
     left: 0px;
+	justify-content: space-evenly;
+	width: 100vw;
     }
 
     #menu li.sub ul li a {
