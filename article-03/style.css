@@ -1,6 +1,4 @@
 body {
-	background-color: black;
-	color: aliceblue;
 	font-family: "Overpass Mono", serif;
   	font-optical-sizing: auto;
 }
@@ -88,5 +86,139 @@ p::first-line {
 	 width: 90%;
   }
 
-  li:nth-child(3) {
+  /* new things try and error */
+
+  * {
+    margin-top: 0rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top 0px;
+	margin-bottom: 0px;
+	/* padding: 10px; */
+	background-color: #D7FF00;
+	text-align: center;
+	font-family: "PT Serif", serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 140%;
+}
+
+p { 
+	padding: 14px;
+}
+
+section {
+	background-color: black;
+	color: white;
+}
+
+header {
+    position: relative;
+	height: 25rem;
+	margin-top: 0px;
+	background-color: var(--neon-yellow);
+}
+
+div {
+	font-family: "Dela Gothic One", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 10px;
+		text-align: center;
+		padding: 5px;
+		background-color: #D7FF00;
+		position: sticky;
+		top: 0px;
+		
+}
+
+.mainh1 {
+    color: #000000;
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+	text-shadow:
+	  3px 3px 2px #D7FF00,
+	  -3px 3px 2px #D7FF00,
+	  -3px -3px 0 #D7FF00,
+	  3px -3px 0 #D7FF00;
+
+}
+
+#ugly {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14rem;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%) rotate(90deg); 
+}
+
+.author {
+	font-family: "Dela Gothic One", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 10px;
+}
+
+.introductionparagraph, .whitebackground {
+	background-color: white;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+blockquote {
+	font-family: "Dela Gothic One", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px;
+		background-color: #D7FF00;
+		color: black;
+
+}
+
+a {
+	font-family: "Rubik Spray Paint", system-ui;
+	text-shadow:
+	  3px 3px 2px #D7FF00,
+	  -3px 3px 2px #D7FF00,
+	  -3px -3px 0 #D7FF00,
+	  3px -3px 0 #D7FF00;
+	  color:#000000;
+}
+
+  /* new things try and error */
+
+a {
+	font-family: "Rubik Spray Paint", system-ui;
+	text-shadow:
+	  3px 3px 2px #D7FF00,
+	  -3px 3px 2px #D7FF00,
+	  -3px -3px 0 #D7FF00,
+	  3px -3px 0 #D7FF00;
+	  color:#000000;
+}
+
+li:nth-child(3) {
     border-top: 5px solid black;
+}
