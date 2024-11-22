@@ -69,8 +69,10 @@ ul {
 	bottom: 0px;
 }
 
+/* This is the small navigation for mobile on each article */
 #menu {
     list-style: none;
+	min-width: 100%;
     }
 
     #menu > li.sub ul {
@@ -95,5 +97,11 @@ ul {
 
     li{
     display:inline-block;
+	border-bottom: 0px solid black;
     }
+
+	li:nth-child(1) {
+		border-top: 0px solid black;
+
+
 

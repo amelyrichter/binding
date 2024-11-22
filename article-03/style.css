@@ -86,32 +86,5 @@ p::first-line {
 	 width: 90%;
   }
 
-  #menu {
-    list-style: none;
-
-    }
-
-    #menu > li.sub ul {
-
-    list-style: none;
-    position: absolute;
-    top: -1000em;
-    left: 0px;
-    }
-
-
-    #menu li.sub ul li a {
-    display: inline;
-    }
-
-    #menu > li.sub:hover ul {
-    top: 3em;
-    }
-
-    #menu{
-    text-align:left;
-    }
-
-    li{
-    display:inline-block;
-    }
+  li:nth-child(3) {
+    border-top: 5px solid black;

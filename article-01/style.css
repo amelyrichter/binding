@@ -115,3 +115,6 @@ a {
 	  3px -3px 0 #D7FF00;
 	  color:#000000;
 }
+
+li:nth-child(1) {
+    border-top: 5px solid black;
