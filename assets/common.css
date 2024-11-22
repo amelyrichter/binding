@@ -2,14 +2,71 @@
 	--base size: 19px;
 }
 
-* {
+/* * {
 	margin-top: 2rem;
 	margin-left: 5px;
 	margin-right: 5px;
 
+} */
+
+:root {
+
+	/* Sizes */
+
+	--size-0: 10px;
+	--size-1: 16px;
+	--size-2: 24px;
+	--size-3: 32px;
+	--size-4: 48px;
+	--size-5: 64px;
+	--size-6: 80px;
+	--size-7: 96px;
+	--size-8: 112px;
+	--size-9: 144px;
+	--size-10: 160px;
+
+	/* Font */
+
+	/* --font-family-1: "Caveat", cursive;
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+	--font-family-2: "mono45-headline", monospace;
+	--font-family-3: "hwt-mardell", sans-serif;
+	--font-family-4: "degular-mono", sans-serif; */
+
+	/* Color */
+	 
+	--black: #131313;
+	--white: #fafafa;
+	--neon-yellow: #D7FF00;
 }
 
 body {
 	font-size: 19px;
 }
+
+.nav-columns {
+	/* margin: 5rem auto; */
+	width: min(100%);
+	display: grid;
+	grid-auto-flow: column;
+	margin: 0px;
+}
+
+li {
+	list-style: none;
+	border-bottom: 3px solid black;
+	padding: 10px;
+}
+
+li:nth-child(1) {
+	border-top: 3px solid black;
+}
+
+ul {
+	padding: 0px;
+	position: sticky;
+	bottom: 0px;
+}
+
 

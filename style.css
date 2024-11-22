@@ -1,0 +1,39 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: var(--white);
+	color: var(--black);
+}
+
+h2 {
+
+}
+
+.divnav {
+position: absolute;
+bottom: 0px;
+}
+
+.number {
+	font-size: var(--size-0);
+}
+
+span {
+	font-size: var(--size-4);
+	font-family: "Climate Crisis", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	  "YEAR" 1979;
+}
+
+a {
+	color: var(--black);
+	text-decoration: none;
+}
+
+/* li:hover {
+	background-color: var(--black);
+	color: var(--neon-yellow);
+} */
