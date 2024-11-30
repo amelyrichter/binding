@@ -18,6 +18,13 @@ body {
 	line-height: 140%;
 }
 
+nav {
+	background-color: var(--neon-yellow);
+	margin: 0px;
+	position: sticky;
+	top: 0px;
+}
+
 p { 
 	padding: 14px;
 }
