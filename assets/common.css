@@ -12,7 +12,6 @@
 :root {
 
 	/* Sizes */
-
 	--size-0: 10px;
 	--size-1: 16px;
 	--size-2: 24px;
@@ -26,16 +25,15 @@
 	--size-10: 160px;
 
 	/* Font */
-
-	/* --font-family-1: "Caveat", cursive;
+	--font-family-1: "Climate Crisis", sans-serif;
+	--font-family-2: "Dela Gothic One", sans-serif;
+	--font-family-3: "Rubik Spray Paint", system-ui;
+	
+	/* Font Weight */
 	--font-weight-regular: 400;
 	--font-weight-bold: 700;
-	--font-family-2: "mono45-headline", monospace;
-	--font-family-3: "hwt-mardell", sans-serif;
-	--font-family-4: "degular-mono", sans-serif; */
-
+	
 	/* Color */
-	 
 	--black: #131313;
 	--white: #fafafa;
 	--neon-yellow: #D7FF00;
