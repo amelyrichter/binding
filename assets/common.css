@@ -28,6 +28,9 @@
 	--font-family-2: "Dela Gothic One", sans-serif;
 	--font-family-3: "Rubik Spray Paint", system-ui;
 	--font-family-4: "PT Serif", serif;
+	--font-family-5: "Ubuntu", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	
 	/* Font Weight */
 	--font-weight-regular: 400;
@@ -39,8 +42,16 @@
 	--neon-yellow: #D7FF00;
 }
 
-body {
-	font-size: var(--base);
+body, p {
+	font-size: var(--size-1);
+	/* font-family: "Libre Caslon Display", serif; */
+	/* font-family: "Raleway", sans-serif; */
+	font-family: "Merriweather", serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+	/* font-weight: 300; */
+	font-style: normal;;
+
 }
 
 .nav-columns {
