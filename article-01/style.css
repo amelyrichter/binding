@@ -115,7 +115,7 @@ blockquote {
 }
 
 a {
-	font-family: "Rubik Spray Paint", system-ui;
+	--font-family-1: "Climate Crisis", sans-serif;
 	text-shadow:
 	  3px 3px 2px #D7FF00,
 	  -3px 3px 2px #D7FF00,

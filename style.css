@@ -22,6 +22,8 @@ h2 {
 		font-optical-sizing: auto;
 		font-weight: 100;
 		font-style: condensed;
+		margin: 1px;;
+
 }
 
 nav {
@@ -63,6 +65,11 @@ nav {
 	  -o-transform: scale(1, 3);
 		 transform: scale(1, 3);
 
+}
+
+.introduction {
+	padding: 5px;
+	padding-top: 10px;
 }
 
 span {

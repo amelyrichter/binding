@@ -54,7 +54,7 @@ body {
 li {
 	list-style: none;
 	border-bottom: 3px solid black;
-	padding: 4px;
+	padding: 0px;
 }
 
 li:nth-child(1) {
@@ -65,6 +65,17 @@ ul {
 	padding: 0px;
 	position: sticky;
 	bottom: 0px;
+}
+
+nav {
+	--font-family-1: "Climate Crisis", sans-serif;
+	font-family: "Climate Crisis", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	  "YEAR" 1979;
+  }
 }
 
 /* This is the small navigation for mobile on each article */
