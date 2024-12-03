@@ -145,6 +145,30 @@ div {
 		
 }
 
+/* footer section */
+footer{
+	background-color: var(--neon-yellow);
+	color: var(--black);
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 18px;
+	padding-top: 10px;
+	font-family: var(--font-family-1);
+	text-transform: uppercase;
+	border-top: solid 1px var(--black);
+}
+.footer-left {
+	font-size: var(--size-0);
+	text-align: left;
+}
+
+.footer-right {
+	font-size: var(--size-0);
+	float: right;
+	padding-right: 0.5rem;
+}
+/* footer section */
+
 .mainh1 {
     color: #000000;
     font-family: "Rubik Spray Paint", system-ui;

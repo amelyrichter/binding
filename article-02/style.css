@@ -10,7 +10,7 @@ body {
 	margin-top 0px;
 	margin-bottom: 0px;
 	/* padding: 10px; */
-	background-color: #D7FF00;
+	background-color: var(--neon-yellow);
 	text-align: left;
 	font-family: "PT Serif", serif;
 	font-weight: 400;
@@ -31,8 +31,8 @@ p {
 }
 
 section {
-	background-color: black;
-	color: var(--white);
+	background-color: var(--white);
+	color: var(--black);
 }
 
 header {
@@ -53,6 +53,30 @@ div {
 		top: 0px;
 		
 }
+
+/* footer section */
+footer{
+	background-color: var(--neon-yellow);
+	color: var(--black);
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 18px;
+	padding-top: 10px;
+	font-family: var(--font-family-1);
+	text-transform: uppercase;
+	border-top: solid 1px var(--black);
+}
+.footer-left {
+	font-size: var(--size-0);
+	text-align: left;
+}
+
+.footer-right {
+	font-size: var(--size-0);
+	float: right;
+	padding-right: 0.5rem;
+}
+/* footer section */
 
 .mainh1 {
     color: #000000;
@@ -123,7 +147,7 @@ h1 {
 		font-style: normal;
 		text-align: center;
 		text-transform: uppercase;
-		font-size: 10px;
+		font-size: var(--size-0);
 }
 
 .introductionparagraph, .whitebackground {
