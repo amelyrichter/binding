@@ -29,6 +29,7 @@
 	--font-family-3: "Rubik Spray Paint", system-ui;
 	--font-family-4: "PT Serif", serif;
 	--font-family-5: "Ubuntu", sans-serif;
+	--font-family-6: "Space Grotesk", sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	
@@ -87,7 +88,10 @@ nav {
 	font-variation-settings:
 	  "YEAR" 1979;
   }
-}
+
+  p {
+	font-family: var(--font-family-6);  
+	}
 
 /* This is the small navigation for mobile on each article */
 #menu {
