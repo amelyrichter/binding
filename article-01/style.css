@@ -54,7 +54,7 @@ div {
 		font-size: 10px;
 		text-align: center;
 		padding: 5px;
-		background-color: #D7FF00;
+		background-color: var(--neon-yellow);
 		position: sticky;
 		top: 0px;
 		

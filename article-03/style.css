@@ -1,14 +1,44 @@
-body {
-	font-family: "Overpass Mono", serif;
-  	font-optical-sizing: auto;
+* {
+    margin-top: 0rem;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/* padding: 10px; */
+	background-color: var(--neon-yellow);
+	text-align: left;
+	/* font-family: "PT Serif", serif; */
+	font-weight: 400;
+	font-style: normal;
+	line-height: 140%;
+}
+
 
 nav {
 	background-color: var(--neon-yellow);
+	color: var(--black);
 	margin: 0px;
 	position: sticky;
 	top: 0px;
 	text-align: center;
+}
+
+h2 {
+	color: var(--black);
+}
+p { 
+	padding: 25px;
+	font-family: var(--font-family-6); 
+}
+
+section {
+	background-color: var(--white);
+	color: var(--black);
 }
 
 h1 {
