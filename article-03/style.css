@@ -91,7 +91,7 @@ header {
 	margin-top: 0.5em;
 }
 
-blockquote {
+/* blockquote {
 	font-family: "Anton", sans-serif;
 	font-weight: 100;
 	font-style: ultra-expanded;
@@ -116,7 +116,7 @@ blockquote {
 	  -o-transform: scale(2, 1);
 		 transform: scale(2, 1); */
 	/* width: 90%; */
-}
+} */
 
 section {
 	padding-top: 5px;

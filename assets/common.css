@@ -2,6 +2,10 @@
 	--base size: 19px;
 }
 
+* {
+	margin:0px;
+}
+
 /* * {
 	margin-top: 2rem;
 	margin-left: 5px;
@@ -87,14 +91,12 @@ nav {
 	font-style: normal;
 	font-variation-settings:
 	  "YEAR" 1979;
-  }
-
-  nav {
 	background-color: var(--neon-yellow);
 	margin: 0px;
 	position: sticky;
 	top: 0px;
 	text-align: center;
+	z-index:500;
 }
 
 h2 {
