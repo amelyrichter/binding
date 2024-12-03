@@ -238,6 +238,11 @@ footer{
 	padding-bottom: 20px;
 }
 
+.header-colophon, body > article > section:nth-child(37) > h3 {
+background-color: var(--black);
+color: var(--white);
+}
+
 blockquote {
 	font-family: var(--font-family-6);
 		font-weight: 900;
