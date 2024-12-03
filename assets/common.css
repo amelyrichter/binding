@@ -80,8 +80,7 @@ ul {
 }
 
 nav {
-	--font-family-1: "Climate Crisis", sans-serif;
-	font-family: "Climate Crisis", serif;
+	font-family: var(--font-family-1);
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
