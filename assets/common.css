@@ -88,6 +88,19 @@ nav {
 	  "YEAR" 1979;
   }
 
+  nav {
+	background-color: var(--neon-yellow);
+	margin: 0px;
+	position: sticky;
+	top: 0px;
+	text-align: center;
+}
+
+h2 {
+	font-family: var(--font-family-1);
+	padding: 5px;
+}
+
   p {
 	font-family: var(--font-family-6);  
 	}
