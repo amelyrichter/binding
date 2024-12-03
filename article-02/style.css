@@ -85,6 +85,38 @@ div {
     transform: translate(-50%, -50%) rotate(90deg); 
 }
 
+h1 {
+	text-align: center;
+	font-size: var(--size-5);
+	line-height: calc(90%);
+	left: 50%; 
+}
+
+#criticism {
+	color: transparent;
+	text-shadow: 0 0 5px rgba(0,0,0,0.9);
+	text-shadow: 2px 2px 5px black;
+	font-family: var(--font-family-6);
+	text-transform: uppercase;
+	-moz-transform: scale(1, 3);
+	 -ms-transform: scale(1, 3);
+	  -o-transform: scale(1, 3);
+		 transform: scale(1, 3);
+	padding-top: 4rem;;
+}
+
+#equal {
+	padding-top: 0.5rem;
+	font-family: var(--font-family-5);
+}
+
+#love {
+	font-family: var(--font-family-7);
+	font-weight: 100;
+	font-size: var(--size-6);
+	margin-top: -40px;
+}
+
 .author {
 	font-family: "Dela Gothic One", sans-serif;
 		font-weight: 400;
@@ -103,16 +135,20 @@ div {
 
 
 blockquote {
-	font-family: "Dela Gothic One", sans-serif;
-		font-weight: 400;
+	font-family: var(--font-family-6);
+		font-weight: 900;
 		font-style: normal;
 		text-align: center;
-		text-transform: uppercase;
+		font-size: var(--size-3);
+		line-height: calc(100% + 8px);
+		/* text-transform: uppercase; */
 		padding: 10px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		background-color: #D7FF00;
 		color: black;
-
 }
+
 
 a {
 	font-family: "Rubik Spray Paint", system-ui;
