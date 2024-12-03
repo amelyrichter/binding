@@ -32,7 +32,7 @@ p {
 
 section {
 	background-color: black;
-	color: white;
+	color: var(--white);
 }
 
 header {
@@ -127,7 +127,7 @@ h1 {
 }
 
 .introductionparagraph, .whitebackground {
-	background-color: white;
+	background-color: var(--white);
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
