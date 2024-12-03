@@ -109,11 +109,13 @@ div {
 
 
 blockquote {
-	font-family: "Dela Gothic One", sans-serif;
-		font-weight: 400;
+	font-family: var(--font-family-6);
+		font-weight: 900;
 		font-style: normal;
 		text-align: center;
-		text-transform: uppercase;
+		font-size: var(--size-3);
+		line-height: calc(100% + 8px);
+		/* text-transform: uppercase; */
 		padding: 10px;
 		padding-top: 50px;
 		padding-bottom: 50px;
