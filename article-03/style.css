@@ -28,8 +28,35 @@ nav {
 	text-align: center;
 }
 
+h1 {
+	font-family: var(--font-family-3);
+	font-weight: 900;
+	font-style: bold;
+	font-optical-sizing: ultra-condensed;
+	font-weight: auto;
+	font-style: ultra-condensed;
+	font-variation-settings:
+	  "wdth" 30;
+	font-size: 46px;
+	width: 100%;
+	text-transform: uppercase;
+	word-spacing: -5px;
+	margin-bottom: 11rem;
+  }
+
 h2 {
 	color: var(--black);
+}
+
+h3 {
+font-size: var(--size-3);
+font-family: var(--font-family-2);
+text-transform: uppercase;
+padding: 12px;
+border-top: solid 1px var(--black);
+position: sticky;
+top: 40px;
+background-color: var(--white);
 }
 
 p { 
@@ -49,24 +76,7 @@ header {
 	background-color: var(--neon-yellow);
 }
 
-h1 {
-  font-family: var(--font-family-3);
-  font-weight: 900;
-  font-style: bold;
-  font-optical-sizing: ultra-condensed;
-  font-weight: auto;
-  font-style: ultra-condensed;
-  font-variation-settings:
-    "wdth" 30;
-  font-size: 46px;
-  width: 100%;
-  text-transform: uppercase;
-  word-spacing: -5px;
-  margin-bottom: 11rem;
-}
-
 .condensed {
-	webkit-transform: scale(1, 3);
 	-moz-transform: scale(1, 3);
 	 -ms-transform: scale(1, 3);
 	  -o-transform: scale(1, 3);
@@ -131,28 +141,8 @@ p::first-line {
 
   /* new things try and error */
 
-
-body {
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top 0px;
-	margin-bottom: 0px;
-	/* padding: 10px; */
-	background-color: #D7FF00;
-	text-align: left;
-	font-family: "PT Serif", serif;
-	font-weight: 400;
-	font-style: normal;
-	line-height: 140%;
-}
-
 p { 
 	padding: 14px;
-}
-
-section {
-	background-color: black;
-	color: var(--white);
 }
 
 header {
@@ -162,7 +152,7 @@ header {
 	background-color: var(--neon-yellow);
 }
 
-div {
+/* div {
 	font-family: "Dela Gothic One", sans-serif;
 		font-weight: 400;
 		font-style: normal;
@@ -173,7 +163,7 @@ div {
 		position: sticky;
 		top: 0px;
 		
-}
+} */
 
 /* footer section */
 footer{
@@ -200,7 +190,7 @@ footer{
 }
 /* footer section */
 
-.mainh1 {
+/* .mainh1 {
     color: #000000;
     font-family: "Rubik Spray Paint", system-ui;
     font-weight: 400;
@@ -217,7 +207,7 @@ footer{
 	  -3px -3px 0 #D7FF00,
 	  3px -3px 0 #D7FF00;
 
-}
+} */
 
 #ugly {
     font-family: "Imperial Script", cursive;
@@ -238,6 +228,7 @@ footer{
 		text-align: center;
 		text-transform: uppercase;
 		font-size: var(--size-0);
+		background-color: var(--neon-yellow);
 }
 
 .introductionparagraph, .whitebackground {
