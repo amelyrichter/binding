@@ -92,8 +92,8 @@ a {
 }
 
 a:hover {
-	background: radial-gradient(80% 100px ellipse, #9da186, #fafafa, #fafafa);
-	color: var(--neon-yellow);
+		color: #b1ca24; 
+		text-shadow: 0 0 5px black; color: transparent; 
 }
 
 li {
@@ -119,7 +119,7 @@ li:nth-child(1) {
 	}
 
 	.h1design {
-		font-size: calc(1em * 4);
+		font-size: calc(1em * 3);
 		margin-top: calc(1em - 130px);
 		margin-bottom: 0px;
 		webkit-transform: scale(2, 6);
@@ -154,7 +154,51 @@ li:nth-child(1) {
 		font-size: var(--size-3);
 	}
 }
-/* li:hover {
-	background-color: var(--black);
-	color: var(--neon-yellow);
-} */
+
+@media (min-width: 1280) {}
+	p, .introduction {
+		max-width: 50%;
+		font-size: 19px;
+		padding-top: calc(1em * 10);
+	}
+
+	h1 {
+		font-size: calc(2em * 3.2);
+		line-height: calc(1em * 1);
+	}
+
+	.h1design {
+		font-size: calc(1em * 4);
+		margin-top: calc(1em - 190px);
+		margin-bottom: 0px;
+		webkit-transform: scale(2, 6);
+		-moz-transform: scale(1, 6);
+		 -ms-transform: scale(1, 6);
+		  -o-transform: scale(1, 6);
+			 transform: scale(1, 6);
+	}
+
+	.condensed {
+		webkit-transform: scale(1, 4);
+		-moz-transform: scale(1, 4);
+		 -ms-transform: scale(1, 4);
+		  -o-transform: scale(1, 4);
+			 transform: scale(1, 4);
+			 margin-top: calc(1em * 1.1);
+			 text-align: right;
+			 padding-right: 15px;
+		font-family: "Rubik Spray Paint", system-ui;
+	}
+
+	.divnav {
+		width: 100%;
+		bottom: 0px;
+	}
+
+	nav, body > div > nav > ul > li:nth-child(1) {
+		padding: 0px;
+	}
+
+	h2 {
+		font-size: var(--size-3);
+	}
