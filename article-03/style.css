@@ -181,9 +181,14 @@ footer{
 	padding-bottom: 20px;
 }
 
-.header-colophon, body > article > section:nth-child(37) > h3 {
-background-color: var(--black);
-color: var(--white);
+.header-colophon {
+	background-color: var(--black);
+	color: var(--white);
+	}
+
+.colophon {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 }
 
 blockquote {
@@ -199,16 +204,6 @@ blockquote {
 		padding-bottom: 50px;
 		background-color: var(--neon-yellow);
 		color: black;
-}
-
-a {
-	font-family: "Rubik Spray Paint", system-ui;
-	text-shadow:
-	  3px 3px 2px #D7FF00,
-	  -3px 3px 2px #D7FF00,
-	  -3px -3px 0 #D7FF00,
-	  3px -3px 0 #D7FF00;
-	  color:#000000;
 }
 
   /* new things try and error */
