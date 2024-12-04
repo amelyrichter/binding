@@ -174,14 +174,12 @@ blockquote {
 		color: var(--black);
 }
 
-body > article > section:nth-child(5) > blockquote:nth-child(3) {
+body > article > section:nth-child(4) > blockquote {
 transform: rotate(180deg);
-background-color: pink;
+align-self: center;
 }
 
-span {
-	transform: rotate(90deg);
-}
+
 
 a {
 	--font-family-1: "Climate Crisis", sans-serif;
