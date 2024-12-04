@@ -98,12 +98,12 @@ a:hover {
 
 li {
 	list-style: none;
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 	padding: 2px;
 }
 
 li:nth-child(1) {
-	border-top: 3px solid black;
+	border-top: 2px solid black;
 }
 
 

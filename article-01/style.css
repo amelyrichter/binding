@@ -111,11 +111,11 @@ div {
 		font-size: var(--size-0);
 }
 
-.introductionparagraph, .whitebackground {
-	background-color: var(--white);
-	color: black;
+.introductionparagraph {
+	font-size: var(--size-2);
+	line-height: calc(100% + 6px);
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .header-colophon {
