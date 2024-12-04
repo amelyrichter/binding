@@ -149,4 +149,14 @@ h2 {
     }
 
 	li:nth-child(1) {
-		border-top: 0px solid black;
+		border-top: 0px solid black; 
+	}
+
+
+
+@media (max-width: 992px) {
+	p {
+		max-width: 70%;
+		align-content: center;
+	}
+}
