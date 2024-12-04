@@ -1,23 +1,21 @@
 * {
-    margin-top: 0rem;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
 }
 
-body {
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	/* padding: 10px; */
-	background-color: var(--white);
-	text-align: left;
-	/* font-family: "PT Serif", serif; */
-	font-weight: 400;
-	font-style: normal;
-	line-height: 140%;
+blockquote {
+	font-family: var(--font-family-6);
+		font-weight: 900;
+		font-style: normal;
+		text-align: center;
+		font-size: var(--size-3);
+		line-height: calc(100% + 8px);
+		/* text-transform: uppercase; */
+		padding: 10px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: #D7FF00;
+		color: var(--black);
 }
-
 
 nav {
 	background-color: var(--neon-yellow);
@@ -62,6 +60,7 @@ background-color: var(--white);
 p { 
 	padding: 25px;
 	font-family: var(--font-family-6); 
+	font-weight: normal;
 }
 
 section {
@@ -91,32 +90,9 @@ header {
 	margin-top: 0.5em;
 }
 
-/* blockquote {
-	font-family: "Anton", sans-serif;
-	font-weight: 100;
-	font-style: ultra-expanded;
-	font-weight: auto;
-	font-style: ultra-expanded;
-	font-stretch: ultra-expanded;
-	line-height: 95%;
-	font-stretch: 200%;
-	font-size: 3rem;
-	text-transform: uppercase;
-	background-color: var(--white);
-	color: black;
-	margin: -20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
-	/* text-align: justify */
-	/* -webkit-transform: scale(1, 1); */
-	/* -moz-transform: scale(2, 1);
-	 -ms-transform: scale(2, 1);
-	  -o-transform: scale(2, 1);
-		 transform: scale(2, 1); */
-	/* width: 90%; */
-} */
+.external-link {
+	padding-bottom: 64px;
+}
 
 section {
 	padding-top: 5px;
@@ -152,19 +128,6 @@ header {
 	background-color: var(--neon-yellow);
 }
 
-/* div {
-	font-family: "Dela Gothic One", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		font-size: 10px;
-		text-align: center;
-		padding: 5px;
-		background-color: #D7FF00;
-		position: sticky;
-		top: 0px;
-		
-} */
-
 /* footer section */
 footer{
 	background-color: var(--neon-yellow);
@@ -188,26 +151,6 @@ footer{
 	float: right;
 	padding-right: 0.5rem;
 }
-/* footer section */
-
-/* .mainh1 {
-    color: #000000;
-    font-family: "Rubik Spray Paint", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    margin: 0;
-    position: absolute; 
-    left: 50%; 
-    top: 50%; 
-    transform: translate(-50%, -50%); 
-	text-shadow:
-	  3px 3px 2px #D7FF00,
-	  -3px 3px 2px #D7FF00,
-	  -3px -3px 0 #D7FF00,
-	  3px -3px 0 #D7FF00;
-
-} */
 
 #ugly {
     font-family: "Imperial Script", cursive;

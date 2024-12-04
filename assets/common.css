@@ -109,6 +109,11 @@ h2 {
 	font-family: var(--font-family-6);  
 	}
 
+.external-link {
+	padding: 25px;
+	font-family: var(--font-family-6); 
+}
+
 /* This is the small navigation for mobile on each article */
 #menu {
     list-style: none;
