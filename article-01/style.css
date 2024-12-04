@@ -50,6 +50,7 @@ p {
 section {
 	background-color: var(--white);
 	color: var(--black);
+	padding-bottom: 4rem;
 }
 
 header {
@@ -114,14 +115,19 @@ div {
 .introductionparagraph {
 	font-size: var(--size-2);
 	line-height: calc(100% + 6px);
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .header-colophon {
 	background-color: var(--black);
 	color: var(--white);
 	}
+
+.colophon {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
 
 /* footer section */
 footer{
