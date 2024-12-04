@@ -31,6 +31,17 @@ h2 {
 	padding: 5px;
 }
 
+h3 {
+	font-size: var(--size-3);
+	font-family: var(--font-family-2);
+	text-transform: uppercase;
+	padding: 12px;
+	border-top: solid 1px var(--black);
+	position: sticky;
+	top: 40px;
+	background-color: var(--white);
+	}
+
 p { 
 	padding: 25px;
 	font-family: var(--font-family-6); 
@@ -106,6 +117,11 @@ div {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+.header-colophon {
+	background-color: var(--black);
+	color: var(--white);
+	}
 
 /* footer section */
 footer{
