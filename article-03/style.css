@@ -19,7 +19,6 @@ blockquote {
 
 nav {
 	background-color: var(--neon-yellow);
-	color: var(--black);
 	margin: 0px;
 	position: sticky;
 	top: 0px;
@@ -44,18 +43,19 @@ h1 {
 
 h2 {
 	color: var(--black);
+	font-family: var(--font-family-1);
 }
 
 h3 {
-font-size: var(--size-3);
-font-family: var(--font-family-2);
-text-transform: uppercase;
-padding: 12px;
-border-top: solid 1px var(--black);
-position: sticky;
-top: 40px;
-background-color: var(--white);
-}
+	font-size: var(--size-3);
+	font-family: var(--font-family-2);
+	text-transform: uppercase;
+	padding: 12px;
+	border-top: solid 1px var(--black);
+	position: sticky;
+	top: 40px;
+	background-color: var(--white);
+	}
 
 p { 
 	padding: 25px;
@@ -128,30 +128,6 @@ header {
 	background-color: var(--neon-yellow);
 }
 
-/* footer section */
-footer{
-	background-color: var(--neon-yellow);
-	color: var(--black);
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-bottom: 18px;
-	padding-top: 10px;
-	font-family: var(--font-family-1);
-	text-transform: uppercase;
-	border-top: solid 1px var(--black);
-}
-
-.footer-left {
-	font-size: var(--size-0);
-	text-align: left;
-}
-
-.footer-right {
-	font-size: var(--size-0);
-	float: right;
-	padding-right: 0.5rem;
-}
-
 #ugly {
     font-family: "Imperial Script", cursive;
     font-weight: 400;
@@ -191,6 +167,10 @@ footer{
 	padding-bottom: 4rem;
 }
 
+.external-link {
+	padding-bottom: 64px;
+}
+
 blockquote {
 	font-family: var(--font-family-6);
 		font-weight: 900;
@@ -220,6 +200,30 @@ a {
 
 li:nth-child(3) {
     border-top: 5px solid black;
+}
+
+/* footer section */
+footer{
+	background-color: var(--neon-yellow);
+	color: var(--black);
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 18px;
+	padding-top: 10px;
+	font-family: var(--font-family-1);
+	text-transform: uppercase;
+	border-top: solid 1px var(--black);
+}
+
+.footer-left {
+	font-size: var(--size-0);
+	text-align: left;
+}
+
+.footer-right {
+	font-size: var(--size-0);
+	float: right;
+	padding-right: 0.5rem;
 }
 
 /* This is the small navigation for mobile on each article */
