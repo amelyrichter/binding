@@ -181,6 +181,11 @@ h3 {
 	padding-bottom: 4rem;
 }
 
+.header-colophon {
+	background-color: var(--black);
+	color: var(--white);
+	}
+
 blockquote {
 	font-family: var(--font-family-6);
 		font-weight: 900;
@@ -194,6 +199,11 @@ blockquote {
 		padding-bottom: 50px;
 		background-color: #D7FF00;
 		color: black;
+}
+
+.box {
+	display: flex;
+		flex-direction: column;
 }
 
 
@@ -228,6 +238,7 @@ li:nth-child(2) {
 		   text-align: left;
 		   border-top: none;
 		   border-right: 2px solid black;
+		  
 	   }
    
 	   blockquote {
@@ -239,6 +250,7 @@ li:nth-child(2) {
 		padding: 0px;
 		border-top: 2px solid black;
 		border-bottom: 2px solid black;
+		position: static;
 	   }
 
 	   .box {
@@ -249,9 +261,51 @@ li:nth-child(2) {
 		height: 400px;
 	   }
 
-	   body > article > section:nth-child(8) > div > blockquote {
+	   .box-three {
+		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		height: fit-content;
+	   }
+
+	   body > article > div > blockquote:nth-child(1), body > article > div > blockquote:nth-child(2), body > article > div > blockquote:nth-child(3) {
+		font-size: 18px;
+		padding: 20px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	   }
+
+	   body > article > div > blockquote:nth-child(1), body > article > div > blockquote:nth-child(2) {
+		border-right: 2px solid black;
+	   }
+
+	   body > article > section:nth-child(8) > div > blockquote, body > article > section:nth-child(6) > div > blockquote {
 		padding-bottom: 0px;
 		padding-top: 100px;
 	   }
+
+	   body > article > section:nth-child(5) > p {
+		padding-top: 70px;
+	   }
+
+	   body > article > section:nth-child(7) > blockquote:nth-child(2) {
+		border-bottom: 2px solid black;
+	   }
+
+	   body > article > section:nth-child(7) {
+		padding-bottom: 0px;
+	   }
+
+	   body > article > section:nth-child(7) > blockquote:nth-child(5) {
+		font-size: 50px;
+	   }
+
+	   h1 {
+		font-size: calc(100% + 60px);
+	   }
+
+	  header {
+		height: 30rem;
+	  }
 	}
 
