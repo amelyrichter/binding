@@ -307,5 +307,10 @@ li:nth-child(2) {
 	  header {
 		height: 30rem;
 	  }
+
+	  .author {
+		font-size: calc(100% + 1px);
+		padding-top: 70px;
+	  }
 	}
 
