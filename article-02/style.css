@@ -58,6 +58,15 @@ div {
 		
 }
 
+.box {
+	padding: 0px;
+}
+
+body > article > div > blockquote:nth-child(1), body > article > div > blockquote:nth-child(2), body > article > div > blockquote:nth-child(3) {
+font-size: 12px;
+position: static;
+}
+
 /* footer section */
 footer{
 	background-color: var(--neon-yellow);
