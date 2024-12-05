@@ -154,7 +154,7 @@ h2 {
 
 
 
-@media (max-width: 992px) {
+@media (min-width: 920px) {
 	p {
 		max-width: 70%;
 		align-content: center;

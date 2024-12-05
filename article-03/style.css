@@ -1,6 +1,10 @@
 * {
     margin: 0px;
 }
+a{
+	text-decoration:black underline;
+	text-shadow: 3px 3px 2px #D7FF00, -3px 3px 2px #D7FF00, -3px -3px 0 #D7FF00, 3px -3px 0 #D7FF00;
+}
 
 body {
 	margin-left: 0px;
@@ -35,6 +39,7 @@ nav {
 	position: sticky;
 	top: 0px;
 	text-align: center;
+	
 }
 
 h1 {
@@ -145,7 +150,7 @@ header {
 	margin-top: 0px;
 	background-color: var(--neon-yellow);
 	align-content: center;
-	
+
 }
 
 #ugly {
@@ -214,6 +219,7 @@ blockquote {
 	  -3px -3px 0 #D7FF00,
 	  3px -3px 0 #D7FF00;
 	  color:#000000;
+	  text-decoration: none;
 }
 
 li:nth-child(3) {
@@ -263,6 +269,7 @@ footer{
 
     #menu li.sub ul li a {
     display: inline;
+	text-decoration:none;
     }
 
     #menu > li.sub:hover ul {
@@ -274,7 +281,7 @@ footer{
     }
 
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
 	body {
 	   align-content: center;
 	   /* margin-left: 50%;
@@ -300,7 +307,7 @@ footer{
    }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
 	body {
 	   align-content: center;
    }
