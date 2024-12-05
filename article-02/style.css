@@ -160,6 +160,12 @@ h3 {
 	font-size: var(--size-6);
 }
 
+.blind {
+	color: transparent;
+	text-shadow: 0 0 5px rgba(0,0,0,0.9);
+	text-shadow: 2px 2px 5px black;
+}
+
 .author {
 	font-family: var(--font-family-2);
 		font-weight: 400;
