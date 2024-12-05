@@ -210,7 +210,7 @@ a {
 li:nth-child(2) {
     border-top: 5px solid black;}
 
-	@media (max-width: 992px) {
+	@media (min-width: 992px) {
 		body {
 		   align-content: center;
 		   /* margin-left: 50%;
@@ -219,11 +219,15 @@ li:nth-child(2) {
    
 	   p {
 		   max-width: 70%;
+		   text-align: left;
 	   }
    
 	   h3 {
 		   padding-top: 20px;
 		   padding-bottom: 20px;
+		   text-align: left;
+		   border-top: none;
+		   border-right: 2px solid black;
 	   }
    
 	   blockquote {
@@ -231,10 +235,23 @@ li:nth-child(2) {
 		   padding-right: 15%;
 	   }
 
-	   /* .content {
-		width: 50%;
-		height: fit-content;
-		margin-left: 50%;
-	   } */
+	   div {
+		padding: 0px;
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+	   }
+
+	   .box {
+		/* margin-left: 50%; */
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		height: 400px;
+	   }
+
+	   body > article > section:nth-child(8) > div > blockquote {
+		padding-bottom: 0px;
+		padding-top: 100px;
+	   }
 	}
 
