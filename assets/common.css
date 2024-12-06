@@ -155,8 +155,13 @@ h2 {
 		font-weight: 400;
 		font-style: normal;
 		text-align: center;
+	
 		text-transform: uppercase;
 		font-size: var(--size-1);
+		background-color: var(--neon-yellow);
+		/* margin: 0px; */
+		padding: 25px;
+		padding-bottom: 10px;
 }
 
 /* This is the colophon button */

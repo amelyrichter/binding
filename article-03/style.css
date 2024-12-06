@@ -97,9 +97,14 @@ section {
 
 header {
     position: relative;
-	height: 30rem;
+	height: 38rem;
 	margin-top: 0px;
 	background-color: var(--neon-yellow);
+}
+
+.scroll-button {
+	padding-bottom: 2rem;
+	padding-top: 4rem;
 }
 
 .condensed {

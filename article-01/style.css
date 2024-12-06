@@ -203,6 +203,10 @@ body > article > section:nth-child(5) > blockquote:nth-child(7) {
 	font-size: var(--size-5);
 }
 
+.author {
+	padding-bottom: 30px;
+}
+
 a {
 	--font-family-1: "Climate Crisis", sans-serif;
 	text-shadow:
