@@ -130,18 +130,19 @@ li:nth-child(1) {
 @media (max-width: 1280px) {
 	p, .introduction {
 		max-width: 50%;
-		font-size: 19px;
-		padding-top: calc(1em * 10);
+		font-size: 16px;
+		padding-top: 80px;
+		/* padding-top: calc(1em * 10); */
 	}
 
 	h1 {
-		font-size: calc(2em * 3.2);
+		font-size: calc(2em * 2.3);
 		line-height: calc(1em * 1);
 	}
 
 	.h1design {
-		font-size: calc(1em * 4);
-		margin-top: calc(1em - 190px);
+		font-size: calc(1em * 2);
+		margin-top: calc(2em - 190px);
 		margin-bottom: 0px;
 		webkit-transform: scale(2, 6);
 		-moz-transform: scale(1, 6);
@@ -175,57 +176,6 @@ li:nth-child(1) {
 		font-size: var(--size-3);
 	}
 }
-
-
-/* @media (min-width: 1000) {
-	p, .introduction {
-		min-width: 80%;
-		max-width: 80%;
-		font-size: 19px;
-		padding-top: calc(1em * 4);
-	}
-
-	h1 {
-		font-size: calc(1em * 6);
-		line-height: calc(1em * 1);
-	}
-
-	.h1design {
-		font-size: calc(1em * 3);
-		margin-top: calc(1em - 130px);
-		margin-bottom: 0px;
-		webkit-transform: scale(2, 6);
-		-moz-transform: scale(1, 6);
-		 -ms-transform: scale(1, 6);
-		  -o-transform: scale(1, 6);
-			 transform: scale(1, 6);
-	}
-
-	.condensed {
-		webkit-transform: scale(1, 4);
-		-moz-transform: scale(1, 4);
-		 -ms-transform: scale(1, 4);
-		  -o-transform: scale(1, 4);
-			 transform: scale(1, 4);
-			 margin-top: calc(1em * 1);
-			 text-align: right;
-			 padding-right: 15px;
-		font-family: "Rubik Spray Paint", system-ui;
-	}
-
-	.divnav {
-		width: 100%;
-		bottom: 0px;
-	}
-
-	nav, body > div > nav > ul > li:nth-child(1) {
-		padding: 0px;
-	}
-
-	h2 {
-		font-size: var(--size-3);
-	}
-} */
 
 
 @media (max-width: 800px) {
@@ -281,7 +231,7 @@ li:nth-child(1) {
 
 @media (max-width: 670px) {
 	h1 {
-		font-size: calc(1em * 3.6);
+		font-size: calc(1em * 2);
 		line-height: calc(1em * 1.2);
 	}
 
@@ -296,6 +246,7 @@ li:nth-child(1) {
 
 	.introduction {
 		padding-top: 80px;
+		font-size: 20px;
 	}
 }
 
@@ -311,7 +262,7 @@ li:nth-child(1) {
 	}
 
 	#ugly {
-		padding: 10px;
+		padding: 30px;
 	}
 
 	.introduction {
@@ -321,22 +272,110 @@ li:nth-child(1) {
 
 @media (max-width: 560px) {
 	h1 {
-		font-size: calc(1em * 2.9);
-		line-height: calc(1em * 1.6);
+		font-size: calc(1em * 2.7);
+		line-height: calc(1em * 2);
+	}
+
+	h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: var(--size-2);
+	}
+
+	.introduction {
+		padding-top: 50px;
+		font-size: 12px;
+	}
+
+	.h1design {
+		font-size: var(--size-3);
+		margin-top: -110px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		webkit-transform: scale(2, 4);
+		-moz-transform: scale(1, 4);
+		 -ms-transform: scale(1, 4);
+		  -o-transform: scale(1, 4);
+			 transform: scale(1, 4);
+	}
+
+	.condensed {
+		padding-top: 0px;
+		margin-top: 20px;
+		padding-right: 110px;
+		font-size: 40px;
 	}
 }
 
 @media (max-width: 500px) {
 	h1 {
-		font-size: calc(1em * 2.6);
-		line-height: calc(1em * 1.6);
+		font-size: calc(1em * 2.5);
+		line-height: calc(1em * 2);
+	}
+
+	h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: var(--size-2);
+	}
+
+	.introduction {
+		padding-top: 50px;
+		font-size: 12px;
+	}
+
+	.h1design {
+		font-size: var(--size-3);
+		margin-top: -110px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		webkit-transform: scale(2, 4);
+		-moz-transform: scale(1, 4);
+		 -ms-transform: scale(1, 4);
+		  -o-transform: scale(1, 4);
+			 transform: scale(1, 4);
+	}
+
+	.condensed {
+		padding-top: 0px;
+		margin-top: 20px;
 	}
 }
 
 @media (max-width: 440px) {
+
+
 	h1 {
-		font-size: calc(1em * 2.3);
-		line-height: calc(1em * 1.7);
+		font-size: calc(1em * 2.1);
+		line-height: calc(1em * 2);
+	}
+
+	h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: var(--size-2);
+	}
+
+	.introduction {
+		padding-top: 50px;
+		font-size: 12px;
+	}
+
+	.h1design {
+		font-size: var(--size-3);
+		margin-top: -110px;
+		margin-bottom: 0px;
+		padding-top: 0px;
+		webkit-transform: scale(2, 4);
+		-moz-transform: scale(1, 4);
+		 -ms-transform: scale(1, 4);
+		  -o-transform: scale(1, 4);
+			 transform: scale(1, 4);
+	}
+
+	.condensed {
+		padding-top: 0px;
+		margin-top: 20px;
 	}
 }
 
@@ -349,6 +388,7 @@ li:nth-child(1) {
 	h2 {
 		padding-top: 10px;
 		padding-bottom: 10px;
+		font-size: var(--size-2);
 	}
 
 	.introduction {
