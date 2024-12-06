@@ -40,7 +40,7 @@ section {
 
 header {
     position: relative;
-	height: 25rem;
+	height: 30rem;
 	margin-top: 0px;
 	background-color: var(--neon-yellow);
 }
@@ -173,6 +173,10 @@ h3 {
 	font-size: var(--size-6);
 }
 
+.author {
+	padding-top: 6rem;
+}
+
 .blind {
 	color: transparent;
 	text-shadow: 0 0 5px rgba(0,0,0,0.9);
@@ -229,6 +233,10 @@ a {
 
 li:nth-child(2) {
     border-top: 5px solid black;}
+
+
+
+
 
 	@media (min-width: 920px) {
 		body {
