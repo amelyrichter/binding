@@ -100,7 +100,7 @@ span {
 }
 
 #ugly {
-    font-family: "Imperial Script", cursive;
+    font-family: var(--font-family-7);
     font-weight: 400;
     font-style: normal;
     font-size: 14rem;
@@ -109,6 +109,20 @@ span {
     left: 50%; 
     top: 50%; 
     transform: translate(-50%, -50%) rotate(90deg); 
+}
+
+.rotate {
+	font-family: var(--font-family-7);
+	font-size: var(--size-9);
+	font-weight: 100;
+    position: absolute;
+	text-align: center;
+	align-content: center;
+	background-color: transparent;
+	 padding-bottom: 100;
+	 padding-left: 50;
+	 padding-top: 77;
+
 }
 
 .introductionparagraph {
@@ -179,6 +193,10 @@ body > article > section:nth-child(5) > blockquote:nth-child(3) {
 	padding-bottom: 12rem;
 }
 
+body > article > section:nth-child(5) > blockquote:nth-child(7) {
+	padding-bottom: 90px;
+}
+
 .aggressive {
 	font-family: var(--font-family-3);
 	font-weight: 100;
@@ -213,6 +231,7 @@ li:nth-child(1) {
 	h3 {
 		padding-top: 20px;
 		padding-bottom: 20px;
+		padding-left: 50px;
 	}
 
 	blockquote {
