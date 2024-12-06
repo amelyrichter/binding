@@ -381,8 +381,8 @@ li:nth-child(1) {
 
 @media (max-width: 400px) {
 	h1 {
-		font-size: calc(1em * 2);
-		line-height: calc(1em * 2);
+		font-size: calc(1em * 1.);
+		line-height: calc(1em * 1.4);
 	}
 
 	h2 {
