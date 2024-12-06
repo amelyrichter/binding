@@ -118,17 +118,24 @@ h2 {
 	font-family: var(--font-family-6); 
 }
 
-/* This is the colophon button */
+/* to colophon button */
 .scroll-button {
-    /* background-color: #333; */
-    /* color: #fff; */
+ 
     border: none;
-    padding: 10px 20px;
+    padding: 30px;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-	align-items: right;
-}
+    font-size: var(--size-1);
+	text-align: left;
+	display: block;
+	margin-right: 0px;
+	font-family: var(--font-family-6); 
+		text-shadow:
+		  3px 3px 2px #D7FF00,
+		  -3px 3px 2px #D7FF00,
+		  -3px -3px 0 #D7FF00,
+		  3px -3px 0 #D7FF00;
+		  color:#000000;
+	}
 
 .scroll-button a {
     color: inherit;
@@ -136,7 +143,11 @@ h2 {
 }
 
 .scroll-button:hover {
-    background-color: #555;
+    text-shadow:
+		  3px 3px 2px #abc324,
+		  -3px 3px 2px #abc324,
+		  -3px -3px 0 #abc324,
+		  3px -3px 0 #abc324;
 }
 
 .author {
@@ -145,7 +156,7 @@ h2 {
 		font-style: normal;
 		text-align: center;
 		text-transform: uppercase;
-		font-size: var(--size-0);
+		font-size: var(--size-1);
 }
 
 /* This is the colophon button */

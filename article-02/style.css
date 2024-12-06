@@ -186,7 +186,7 @@ h3 {
 	.introductionparagraph {
 		font-size: var(--size-2);
 		line-height: calc(100% + 6px);
-		padding-top: 4rem;
+		padding-top: 0rem;
 		padding-bottom: 2rem;
 	}
 
