@@ -346,7 +346,7 @@ li:nth-child(1) {
 
 
 	h1 {
-		font-size: calc(1em * 2.1);
+		font-size: calc(1em * 2);
 		line-height: calc(1em * 2);
 	}
 
@@ -357,7 +357,7 @@ li:nth-child(1) {
 	}
 
 	.introduction {
-		padding-top: 50px;
+		padding-top: 70px;
 		font-size: 12px;
 	}
 
@@ -374,10 +374,10 @@ li:nth-child(1) {
 	}
 
 	.condensed {
-		padding-top: 0px;
-		margin-top: 20px;
+		font-size: 30px;
+	
+		}
 	}
-}
 
 @media (max-width: 400px) {
 	h1 {
@@ -392,13 +392,13 @@ li:nth-child(1) {
 	}
 
 	.introduction {
-		padding-top: 50px;
+		padding-top: 70px;
 		font-size: 12px;
 	}
 
 	.h1design {
 		font-size: var(--size-3);
-		margin-top: -110px;
+		margin-top: -80px;
 		margin-bottom: 0px;
 		padding-top: 0px;
 		webkit-transform: scale(2, 4);
@@ -411,5 +411,6 @@ li:nth-child(1) {
 	.condensed {
 		padding-top: 0px;
 		margin-top: 20px;
+
 	}
 }
