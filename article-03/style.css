@@ -351,6 +351,17 @@ footer{
 	}
 
 
+	@media (min-width: 600px){
+		
+		.skew {
+			/* max-width: 70%; */
+			margin-left: 100px;
+			margin-right: 100px;
+			transform: skew(5deg, 5deg);
+			font-size: var(--size-3);
+		}
+	}
+
 @media (min-width: 992px) {
 
 	body {
@@ -376,6 +387,14 @@ footer{
    header {
 	align-content: center;
    }
+
+   .skew {
+	/* max-width: 70%; */
+	margin-left: 100px;
+	margin-right: 100px;
+	transform: skew(5deg, 5deg);
+	font-size: var(--size-3);
+}
 }
 
 @media (min-width: 1000px) {
