@@ -102,10 +102,10 @@ header {
 	background-color: var(--neon-yellow);
 }
 
-.scroll-button {
+/* .scroll-button {
 	padding-bottom: 2rem;
-	padding-top: 4rem;
-}
+	padding-top: 4rem; 
+} */
 
 .condensed {
 	-moz-transform: scale(1, 3);
@@ -352,6 +352,7 @@ footer{
 
 
 @media (min-width: 992px) {
+
 	body {
 	   align-content: center;
 	   /* margin-left: 50%;
