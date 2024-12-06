@@ -181,11 +181,6 @@ header {
     transform: translate(-50%, -50%) rotate(90deg); 
 } */
 
-.introductionparagraph {
-	font-size: var(--size-2);
-	line-height: calc(100% + 6px);
-}
-
 .header-colophon {
 	/* background-color: var(--black); */
 	color: var(--white);

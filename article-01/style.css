@@ -45,6 +45,7 @@ p {
 	font-family: var(--font-family-6); 
 	max-width: 90vw;
 	margin: auto;
+	text-align: left;
 }
 
 section {
@@ -64,7 +65,7 @@ div {
 		font-weight: 400;
 		font-style: normal;
 		font-size: 10px;
-		text-align: center;
+		text-align: left;
 		padding: 5px;
 		background-color: var(--neon-yellow);
 		position: sticky;
@@ -128,10 +129,7 @@ align-self: center;
 }
 
 .introductionparagraph {
-	font-size: var(--size-2);
-	line-height: calc(100% + 6px);
 	padding-top: 2rem;
-	padding-bottom: 2rem;
 }
 
 .header-colophon {
@@ -199,6 +197,10 @@ body > article > section:nth-child(5) > blockquote:nth-child(7) {
 	padding-bottom: 90px;
 }
 
+body > article > section:nth-child(7) > div > p {
+text-align: left;
+}
+
 .bauhausboys {
 background-color: var(--white);
 font-size: var(--size-4);
@@ -220,7 +222,7 @@ text-shadow:
 .aggressive {
 	font-family: var(--font-family-3);
 	font-weight: 100;
-	font-size: var(--size-5);
+	font-size: var(--size-4);
 }
 
 .author {
