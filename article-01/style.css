@@ -111,15 +111,6 @@ span {
     transform: translate(-50%, -50%) rotate(90deg); 
 }
 
-.author {
-	font-family: "Dela Gothic One", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		text-align: center;
-		text-transform: uppercase;
-		font-size: var(--size-0);
-}
-
 .introductionparagraph {
 	font-size: var(--size-2);
 	line-height: calc(100% + 6px);

@@ -6,6 +6,10 @@
 	margin:0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* * {
 	margin-top: 2rem;
 	margin-left: 5px;
@@ -97,7 +101,7 @@ nav {
 	position: sticky;
 	top: 0px;
 	text-align: center;
-	z-index:500;
+	z-index:900;
 }
 
 h2 {
@@ -113,6 +117,38 @@ h2 {
 	padding: 25px;
 	font-family: var(--font-family-6); 
 }
+
+/* This is the colophon button */
+.scroll-button {
+    /* background-color: #333; */
+    /* color: #fff; */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+	align-items: right;
+}
+
+.scroll-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.scroll-button:hover {
+    background-color: #555;
+}
+
+.author {
+	font-family: var(--font-family-2);
+		font-weight: 400;
+		font-style: normal;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: var(--size-0);
+}
+
+/* This is the colophon button */
 
 /* This is the small navigation for mobile on each article */
 #menu {

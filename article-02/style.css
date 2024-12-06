@@ -179,15 +179,6 @@ h3 {
 	text-shadow: 2px 2px 5px black;
 }
 
-.author {
-	font-family: var(--font-family-2);
-		font-weight: 400;
-		font-style: normal;
-		text-align: center;
-		text-transform: uppercase;
-		font-size: var(--size-0);
-}
-
 	.introductionparagraph {
 		font-size: var(--size-2);
 		line-height: calc(100% + 6px);

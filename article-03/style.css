@@ -57,6 +57,7 @@ h1 {
 	word-spacing: -5px;
 	padding-top: 1rem;
 	margin-bottom: 9rem;
+	text-align: center;
   }
 
 h2 {
@@ -76,7 +77,7 @@ h3 {
 	background-color: var(--white);
 	}
 
-	p { 
+p { 
 		padding: 25px;
 		font-family: var(--font-family-6); 
 		max-width: 90vw;
@@ -87,6 +88,11 @@ section {
 	background-color: var(--white);
 	color: var(--black);
 	padding-bottom: 4rem;
+}
+
+#colophon, #colophon p, #colophon h3{
+	/* background-color:black; */
+	color:white,
 }
 
 header {
@@ -101,16 +107,21 @@ header {
 	 -ms-transform: scale(1, 3);
 	  -o-transform: scale(1, 3);
 		 transform: scale(1, 3);
-	font-family: "Anton", sans-serif;
 	font-size: 130px;
 	align-content: center;
-	
-	
-#ugly {
-	font-size: 12rem;
-	margin-bottom: 9rem;
+	/* margin-bottom: 9rem; */
 	margin-top: 0.5em;
 	align-content: center;
+	--inset--top:    -0.2em; /* Font/line-height-dependent! */
+	--inset--bottom: -0.23em;
+	--inset--left:   -0.07em;
+	--inset--right:  -0.7em;
+	font-family: "Anton", sans-serif;
+	}
+	
+#ugly {
+	align-content: center;
+	font-family: "Anton", sans-serif;
 }
 
 .external-link {
@@ -122,7 +133,7 @@ section {
 	padding-bottom: 5px;
 }
 
-p::first-line {
+/* p::first-line {
 	font-family: "BioRhyme Expanded", serif;
 	font-weight: 700;
 	font-style: normal;
@@ -136,7 +147,7 @@ p::first-line {
 	  -o-transform: scale(2, 1);
 		 transform: scale(2, 1); 
 	 width: 90%;
-  }
+  } */
 
   /* new things try and error */
 
@@ -146,15 +157,15 @@ p {
 
 header {
     position: relative;
-	height: 25rem;
+	height: 30rem;
 	margin-top: 0px;
 	background-color: var(--neon-yellow);
 	align-content: center;
 
 }
 
-#ugly {
-    font-family: "Imperial Script", cursive;
+/* #ugly {
+    font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 14rem;
@@ -163,7 +174,7 @@ header {
     left: 50%; 
     top: 50%; 
     transform: translate(-50%, -50%) rotate(90deg); 
-}
+} */
 
 .introductionparagraph {
 	font-size: var(--size-2);
@@ -171,17 +182,63 @@ header {
 }
 
 .header-colophon {
+	/* background-color: var(--black); */
+	color: var(--white);
+	background-color: var(--black);
+	}
+
+#header-colophon {
+	/* background-color: var(--black); */
 	background-color: var(--black);
 	color: var(--white);
+	position: sticky;
+	top: 0px;
 	}
+
 
 .colophon {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
 
+
+section #colophon h3{
+	color:white,
+
+}
+#colophon .header-colophon{
+	color:white;
+}
+
+
 .external-link {
 	padding-bottom: 64px;
+}
+
+.stretch, .stretch02, .stretch03 {
+	transform: skew(15deg, 15deg);
+	font-stretch: 150%;
+	display:inline-block;
+    -webkit-transform:scale(2.5,1);
+	line-height: calc(100% - 1px);
+	z-index: -200;
+	text-align: center;
+	align-content: center;
+	/* margin-left: 25%;
+	margin-right: 25%; */
+}
+
+.stretch02 {
+	padding-bottom: 5px;
+	z-index: -200;
+}
+
+.stretch03 {
+	font-size: var(--size-2);
+}
+
+.squish {
+		transform: scale(1, 0.75);
 }
 
 blockquote {
@@ -199,13 +256,21 @@ blockquote {
 		color: black;
 }
 
+body > article > section:nth-child(3) > blockquote:nth-child(6) {
+	font-size: var(--size-2);
+}
+
+.skew {
+	font-size: var(--size-4);
+	/* background-color: var(--black);
+	color: var(--neon-yellow); */
+	transform: skew(10deg, 10deg);
+	/* font-stretch: 150%; */
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 .author, body > header > p {
-	font-family: var(--font-family-6);
-		font-weight: 400;
-		font-style: normal;
-		text-align: center;
-		text-transform: uppercase;
-		font-size: var(--size-0);
 	padding-top: 4rem;
 }
 
@@ -220,10 +285,6 @@ blockquote {
 	  3px -3px 0 #D7FF00;
 	  color:#000000;
 	  text-decoration: none;
-}
-
-li:nth-child(3) {
-    border-top: 5px solid black;
 }
 
 /* footer section */
@@ -279,6 +340,10 @@ footer{
     #menu{
     text-align:left;
     }
+
+	li:nth-child(3) {
+		border-top: 5px solid black;
+	}
 
 
 @media (min-width: 992px) {
