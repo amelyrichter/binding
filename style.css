@@ -12,9 +12,9 @@ h1 {
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
-    font-size: var(--size-3);
+    font-size: 35px;
 	line-height: 60px;
-	padding-left: 5px;
+	padding-left: 10px;
 }
 
 h2 {
@@ -38,6 +38,10 @@ nav {
 .divnav {
 	position: absolute;
 	bottom: 0px;
+}
+
+.nav-columns {
+padding-bottom: 0px;
 }
 
 .number {
@@ -70,10 +74,12 @@ nav {
 
 .introduction {
 	padding: 5px;
-	padding-top: 60px;
+	padding-left: 10px;
+	padding-top: 50px;
 	font-size: 14px;
-	font-weight: 300;
-	max-width: 90%;
+	font-weight: 400;
+	max-width: 80%;
+	text-align: justify;
 	/* max-width: 90%; */
 }
 
@@ -308,3 +314,75 @@ li:nth-child(1) {
 	}
 }
 
+@media (min-width: 400px) {
+	h1 {
+		font-size: calc(1em * 2);
+		line-height: calc(1em * 1.8);
+	}
+}
+
+@media (min-width: 440px) {
+	h1 {
+		font-size: calc(1em * 2.3);
+		line-height: calc(1em * 1.7);
+	}
+}
+
+@media (min-width: 500px) {
+	h1 {
+		font-size: calc(1em * 2.6);
+		line-height: calc(1em * 1.6);
+	}
+}
+
+@media (min-width: 560px) {
+	h1 {
+		font-size: calc(1em * 2.9);
+		line-height: calc(1em * 1.6);
+	}
+
+	h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (min-width: 600px) {
+	h1 {
+		font-size: calc(1em * 3.2);
+		line-height: calc(1em * 1.4);
+	
+	}
+
+	.h1design {
+		margin-top: -80px;
+	}
+
+	#ugly {
+		padding: 10px;
+	}
+
+	.introduction {
+		max-width: 70%;
+	}
+}
+
+@media (min-width: 670px) {
+	h1 {
+		font-size: calc(1em * 3.6);
+		line-height: calc(1em * 1.2);
+	}
+
+	#ugly {
+		padding: 40px;
+	}
+
+	.h1design {
+		margin-top: -120px;
+		font-size: calc(1em * 3);
+	}
+
+	.introduction {
+		padding-top: 80px;
+	}
+}
