@@ -112,17 +112,19 @@ span {
 }
 
 .rotate {
-	font-family: var(--font-family-7);
-	font-size: var(--size-9);
-	font-weight: 100;
-    position: absolute;
-	text-align: center;
-	align-content: center;
-	background-color: transparent;
-	 padding-bottom: 100;
-	 padding-left: 50;
-	 padding-top: 77;
+	transform: rotate(180deg);
+align-self: center;
+}
 
+.imperial {
+	font-family: var(--font-family-7);
+	font-size: var(--size-5);
+	font-weight: 100;
+ 
+	text-align: center;
+	align-self: center;
+	padding-top: 0px;
+	transform: none;
 }
 
 .introductionparagraph {
@@ -181,12 +183,12 @@ blockquote {
 		color: var(--black);
 }
 
-body > article > section:nth-child(4) > blockquote {
+body > article > section:nth-child(1) > blockquote {
 transform: rotate(180deg);
 align-self: center;
 }
 
-body > article > section:nth-child(5) > blockquote:nth-child(3) {
+.dark {
 	background-color: var(--black);
 	color: var(--neon-yellow);
 	padding-top: 12rem;
